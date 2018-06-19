@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CCCCB47920D949BB00FE5F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */; };
 		CCCCB47B20D949BB00FE5F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB47A20D949BB00FE5F11 /* ViewController.swift */; };
-		CCCCB47E20D949BB00FE5F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCB47C20D949BB00FE5F11 /* Main.storyboard */; };
 		CCCCB48020D949BC00FE5F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */; };
 		CCCCB48320D949BC00FE5F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCB48120D949BC00FE5F11 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		CCCCB47520D949BB00FE5F11 /* ruby-china-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ruby-china-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCCB47A20D949BB00FE5F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCCCB47D20D949BB00FE5F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCCB48220D949BC00FE5F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCCB48420D949BC00FE5F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */,
 				CCCCB47A20D949BB00FE5F11 /* ViewController.swift */,
-				CCCCB47C20D949BB00FE5F11 /* Main.storyboard */,
 				CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */,
 				CCCCB48120D949BC00FE5F11 /* LaunchScreen.storyboard */,
 				CCCCB48420D949BC00FE5F11 /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				CCCCB48320D949BC00FE5F11 /* LaunchScreen.storyboard in Resources */,
 				CCCCB48020D949BC00FE5F11 /* Assets.xcassets in Resources */,
-				CCCCB47E20D949BB00FE5F11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCCCB47C20D949BB00FE5F11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCCCB47D20D949BB00FE5F11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCCCB48120D949BC00FE5F11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ruby-china-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ruby-china-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
