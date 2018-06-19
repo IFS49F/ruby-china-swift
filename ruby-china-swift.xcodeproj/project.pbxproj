@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CCCCB47920D949BB00FE5F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */; };
-		CCCCB47B20D949BB00FE5F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB47A20D949BB00FE5F11 /* ViewController.swift */; };
+		CCCCB47B20D949BB00FE5F11 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB47A20D949BB00FE5F11 /* MainTabViewController.swift */; };
 		CCCCB48020D949BC00FE5F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */; };
 		CCCCB48320D949BC00FE5F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCB48120D949BC00FE5F11 /* LaunchScreen.storyboard */; };
+		CCCCB48C20D94B3400FE5F11 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB48B20D94B3400FE5F11 /* SearchViewController.swift */; };
+		CCCCB48E20D94B6800FE5F11 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCB48D20D94B6800FE5F11 /* TopicsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCCCB47520D949BB00FE5F11 /* ruby-china-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ruby-china-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCCCB47A20D949BB00FE5F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCCCB47A20D949BB00FE5F11 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCCB48220D949BC00FE5F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCCB48420D949BC00FE5F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCCB48B20D94B3400FE5F11 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CCCCB48D20D94B6800FE5F11 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +56,23 @@
 		CCCCB47720D949BB00FE5F11 /* ruby-china-swift */ = {
 			isa = PBXGroup;
 			children = (
+				CCCCB48A20D94B1200FE5F11 /* Controllers */,
 				CCCCB47820D949BB00FE5F11 /* AppDelegate.swift */,
-				CCCCB47A20D949BB00FE5F11 /* ViewController.swift */,
+				CCCCB47A20D949BB00FE5F11 /* MainTabViewController.swift */,
 				CCCCB47F20D949BC00FE5F11 /* Assets.xcassets */,
 				CCCCB48120D949BC00FE5F11 /* LaunchScreen.storyboard */,
 				CCCCB48420D949BC00FE5F11 /* Info.plist */,
 			);
 			path = "ruby-china-swift";
+			sourceTree = "<group>";
+		};
+		CCCCB48A20D94B1200FE5F11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCB48B20D94B3400FE5F11 /* SearchViewController.swift */,
+				CCCCB48D20D94B6800FE5F11 /* TopicsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCCCB47B20D949BB00FE5F11 /* ViewController.swift in Sources */,
+				CCCCB48C20D94B3400FE5F11 /* SearchViewController.swift in Sources */,
+				CCCCB47B20D949BB00FE5F11 /* MainTabViewController.swift in Sources */,
+				CCCCB48E20D94B6800FE5F11 /* TopicsViewController.swift in Sources */,
 				CCCCB47920D949BB00FE5F11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

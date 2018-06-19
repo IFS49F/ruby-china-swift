@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let homeViewController = UIViewController()
         homeViewController.view.backgroundColor = UIColor.white
         window!.rootViewController = homeViewController
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let mainTabViewController = MainTabViewController()
+        window!.rootViewController = mainTabViewController
         window!.makeKeyAndVisible()
         return true
     }
